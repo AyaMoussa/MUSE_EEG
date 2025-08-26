@@ -236,4 +236,4 @@ class Proj_img(nn.Sequential):
             nn.LayerNorm(proj_dim),
         )
     def forward(self, x):
-        return x 
+        return x

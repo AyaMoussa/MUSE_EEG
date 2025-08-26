@@ -82,4 +82,3 @@ print(">Done Whitening======================================================")
 # Then, the preprocessed data of the test and training data partitions is saved.
 save_prepr(args, whitened_test, whitened_train, img_conditions_train, ch_names,
 	times, seed)
-
